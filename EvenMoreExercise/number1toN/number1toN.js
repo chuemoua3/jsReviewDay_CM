@@ -10,7 +10,6 @@ function addSum(){
         sum = sum + i;
         console.log(sum);
     }
-    document.querySelector("#message").innerHTML = "The sum of the numbers 1 to " + n + " is " + sum;
 
 }
 hello();
