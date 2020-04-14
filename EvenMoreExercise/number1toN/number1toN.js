@@ -2,16 +2,11 @@
 Write a program that asks the user for a number n and prints the sum of the
 numbers 1 to n
 */
-function addSum(){
-    var n = prompt("Enter a number!")
-    var sum = 0;
-
-    for(var i = 0; i <= n; i++){
-        sum = sum + i;
-        console.log(sum);
-    }
-
+var input = prompt('Type it in a number and I will add it')
+var addSum = 0;
+for (let i =1; i <= input; i++){
+    addSum += i;
 }
-addSum()
 
+console.log(addSum)
 
